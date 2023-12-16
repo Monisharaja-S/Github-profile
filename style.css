@@ -1,0 +1,71 @@
+body {
+    background-color:silver;
+    margin: 0;
+    padding: 0;
+  }
+  .header-bar {
+    background-color:darkslategrey;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .github-icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  .github-text {
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .content-wrapper{
+    display: flex;
+    height: 100%;
+    
+  }
+  .sidebar {
+    background-color: #000;
+    margin: 40px;
+    padding: 20px;
+    height: 90%;
+    border-radius: 15px;
+    width:300px;
+   
+  }
+  .search-box {
+    background-color: #000;
+    margin-top: 40px;
+    margin-left: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width:70%
+   
+  }
+  .search-box input {
+    background-color: transparent;
+    color:black;
+    border: none;
+    outline: none;
+  }
+  .split-box{
+    background-color:black;
+    height: 150px;
+    width:220px;
+    border-radius: 15px;
+    
+    margin: 50px;
+    
+  }
+  .rectangular-box {
+    background-color:black;
+    height: 200px;
+    border-radius: 15px;
+    margin: 40px;
+    width:90%
+  }
+  
